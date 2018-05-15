@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPoint", "TrainProject1\FindPoint.csproj", "{ADAAD55F-A882-4758-A8EC-1CD6B6554222}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDraws", "MaximumDraws\MaximumDraws.csproj", "{558E1479-6651-4265-AB15-2AE93414223F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADAAD55F-A882-4758-A8EC-1CD6B6554222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADAAD55F-A882-4758-A8EC-1CD6B6554222}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADAAD55F-A882-4758-A8EC-1CD6B6554222}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADAAD55F-A882-4758-A8EC-1CD6B6554222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558E1479-6651-4265-AB15-2AE93414223F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558E1479-6651-4265-AB15-2AE93414223F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558E1479-6651-4265-AB15-2AE93414223F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558E1479-6651-4265-AB15-2AE93414223F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {53787B2D-6EF5-4713-9FBF-73492FB45077}
+		SolutionGuid = {F9F799BD-E918-46D4-A826-A94FD87C807E}
 	EndGlobalSection
 EndGlobal
