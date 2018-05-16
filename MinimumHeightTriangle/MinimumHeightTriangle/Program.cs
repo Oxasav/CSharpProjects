@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace MinimumHeightTriangle
 {
@@ -12,7 +13,32 @@ namespace MinimumHeightTriangle
             int height = lowestTriangle(baseTr, area);
             Console.WriteLine(height);
             Console.ReadLine();
-            
+
+
+            int i = 4;
+            double d = 4.0;
+            string s = "HackerRank ";
+           
+            // Declare second integer, double, and String variables.
+            int iSecond;
+            double dSecond;
+            string sSecond;
+            // Read and save an integer, double, and String to your variables.
+            iSecond = int.Parse(Console.ReadLine());
+            dSecond = double.Parse(Console.ReadLine());
+            sSecond = Console.ReadLine();
+
+            // Print the sum of both integer variables on a new line.
+            Console.WriteLine(i + iSecond);
+
+            // Print the sum of the double variables on a new line.
+            Console.WriteLine("{0:f1}", d + dSecond);
+
+            // Concatenate and print the String variables on a new line
+            // The 's' variable above should be printed first.
+            Console.WriteLine(s+sSecond);
+
+            Console.ReadLine();
         }
 
         private static int lowestTriangle(int baseTr, int area)
